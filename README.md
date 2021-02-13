@@ -25,3 +25,14 @@ Get the repo remote (e.g. Origin) and the associated urls of github.
 ```sh
 git remote -v
 ```
+
+## Starting from local computer and attaching a repo
+
+```sh
+git init
+
+# create an empty repository on GitHub with no files
+
+git remote add origin <REPO_URL>
+```
+
