@@ -4,4 +4,17 @@
 
 Can be skipped:
 * 1.5
-* 
+
+# Git snippets
+
+## Git commit -a
+Stage all changes and commit with a message
+```sh
+git commit -a -m "A message"
+```
+
+## Git config
+List all relevant configs
+```sh
+git config --list
+```
