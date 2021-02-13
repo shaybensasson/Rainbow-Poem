@@ -18,3 +18,10 @@ List all relevant configs
 ```sh
 git config --list
 ```
+
+## `Git Remote` Information
+Get the repo remote (e.g. Origin) and the associated urls of github.
+
+```sh
+git remote -v
+```
