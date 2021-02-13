@@ -4,6 +4,8 @@
 
 Can be skipped:
 * 1.5
+* 1.7
+
 
 # Git snippets
 
