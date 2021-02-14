@@ -74,7 +74,7 @@ git push
 
 * That's is, now someone with permission can merge this pull request.
 
-## Mergin when working alone
+## Merging when working alone
 ```sh
 # get latest version - assuming you are on `main` branch (the default)
 git pull
@@ -138,7 +138,7 @@ git stash pop
 ```
 
 # Revert
-Go back to an earlier commit, by creating a brand new commit.
+Go back to an earlier commit, by creating a brand new commit. This is useful if other people have already pulled your commit. For more info, see [Creates a new commit undoing the change](https://youtu.be/FdZecVxzJbk?t=1143)
 
 Two options:
 1. Revert last commit
@@ -153,4 +153,11 @@ git log --oneline
 Run revert:
 ```sh
 git revert HASH
+```
+
+# Amend
+Amend to last commit (e.g. change its' message)
+
+```sh
+git commit --ament -m "Better message"
 ```
