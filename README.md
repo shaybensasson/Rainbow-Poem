@@ -103,6 +103,9 @@ git pull
 
 #try to merge branch with main
 git merge feature1
+
+#if all successful, remove feature1
+git branch -d feature1
 ```
 
 In case there are any conflict, solve them and try to re-add the conflicted files, commit again, and finally push:
