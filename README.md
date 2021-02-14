@@ -66,11 +66,8 @@ git checkout main
 # get latest version - get any changes that were pushed since the branch creation
 git pull
 
-#switch to our branch
-git checkout feature1
-
 #try to merge branch with main
-git merge main
+git merge feature1
 ```
 
 In case there are any conflict, solve them and try to re-add the conflicted files, commit again, and finally push:
