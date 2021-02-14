@@ -85,6 +85,10 @@ git branch feature1
 #switch to the new branch
 git checkout feature1
 
+# or just: 
+#	git checkout -b feature1
+# in a single command
+
 # Make your changes
 
 # add your changes
@@ -104,7 +108,7 @@ git pull
 #try to merge branch with main
 git merge feature1
 
-#if all successful, remove feature1
+#if merge successful, do not keep the branch.
 git branch -d feature1
 ```
 
@@ -113,5 +117,24 @@ In case there are any conflict, solve them and try to re-add the conflicted file
 git push origin main
 ```
 
+# Git log
+```sh
+git log --oneliner
+```
+
+# Stashing
+```sh
+git stash
+```
+
+```sh
+#to list
+git stash list 
+```
 
 
+```sh
+git stash pop
+```
+
+# Revert (go back to the last commit - not pushed to github)
