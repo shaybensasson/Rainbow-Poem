@@ -2,6 +2,7 @@
 
 [Github for starters](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 
+<<<<<<< HEAD
 Can be skipped:
 * 1.5
 * 1.7
@@ -38,3 +39,8 @@ git init
 git remote add origin <REPO_URL>
 ```
 
+=======
+Another line from the past: commit 11546750cf189da7894804e9fc11b988c7e24d83
+
+
+>>>>>>> past_readme
