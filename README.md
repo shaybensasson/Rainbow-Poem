@@ -6,6 +6,7 @@ Can be skipped:
 * 1.5
 * 1.7
 
+> Another line from the past: commit 11546750cf189da7894804e9fc11b988c7e24d83
 
 # Git snippets
 
@@ -38,3 +39,4 @@ git init
 git remote add origin <REPO_URL>
 ```
 
+## Merging
