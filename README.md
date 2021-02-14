@@ -119,7 +119,7 @@ git push origin main
 
 # Git log
 ```sh
-git log --oneliner
+git log --oneline
 ```
 
 # Stashing
@@ -137,4 +137,15 @@ git stash list
 git stash pop
 ```
 
-# Revert (go back to the last commit - not pushed to github)
+# Revert
+Go back to an earlier commit, by creating a brand new commit.
+
+Choose a commit hash from the logs:
+```sh
+git log --oneline
+```
+
+Run revert:
+```sh
+git revert HASH
+```
