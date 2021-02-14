@@ -140,7 +140,13 @@ git stash pop
 # Revert
 Go back to an earlier commit, by creating a brand new commit.
 
-Choose a commit hash from the logs:
+Two options:
+1. Revert last commit
+```sh
+git revert HEAD
+```
+
+2. Choose a commit hash from the logs:
 ```sh
 git log --oneline
 ```
