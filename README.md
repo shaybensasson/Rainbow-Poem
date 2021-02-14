@@ -39,4 +39,41 @@ git init
 git remote add origin <REPO_URL>
 ```
 
-## Merging
+## Creating a pull request
+```sh
+# get latest version - assuming you are on `main` branch (the default)
+git pull
+
+#create a branch
+git branch feature1
+
+#switch to the new branch
+git checkout feature1
+
+# Make your changes
+
+# add your changes
+git add . 
+
+#commit your change
+git commit -m "Explaining what I changed"
+
+### ========================== ###
+
+#switch to main
+git checkout main
+
+# get latest version - get any changes that were pushed since the branch creation
+git pull
+
+#switch to our branch
+git checkout feature1
+
+#try to merge branch with main
+git merge main
+```
+
+In case there are any conflict, solve them and try to re-add the conflicted files, commit again, and finally push:
+```sh
+git push origin main
+```
