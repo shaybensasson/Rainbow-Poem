@@ -77,3 +77,5 @@ In case there are any conflict, solve them and try to re-add the conflicted file
 ```sh
 git push origin main
 ```
+
+* TODO: pull request on github
