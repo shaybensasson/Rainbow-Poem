@@ -75,4 +75,30 @@ In case there are any conflict, solve them and try to re-add the conflicted file
 git push origin main
 ```
 
-* TODO: pull request on github
+# pull request on github
+* Create a branch using github interface (e.g. feature1)
+
+* git pull
+```sh
+git pull
+```
+
+* switch to the branch
+```sh
+git checkout feature1
+```
+
+* Make changes to code
+
+* Add them and commit
+```sh
+# add your changes
+git add . 
+
+#commit your change
+git commit -m "Explaining what I changed"
+
+#push the changes
+git push
+```
+
