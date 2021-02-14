@@ -39,7 +39,7 @@ git init
 git remote add origin <REPO_URL>
 ```
 
-## Creating a pull request
+## Mergin when working alone
 ```sh
 # get latest version - assuming you are on `main` branch (the default)
 git pull
@@ -75,7 +75,7 @@ In case there are any conflict, solve them and try to re-add the conflicted file
 git push origin main
 ```
 
-# pull request on github
+# Pull request on github
 * Create a branch using github interface (e.g. feature1)
 
 * git pull
@@ -98,7 +98,17 @@ git add .
 #commit your change
 git commit -m "Explaining what I changed"
 
-#push the changes
+#push the changes to github
 git push
 ```
+
+* On github choose "Compare & Pull request"
+	* Make sure you are trying to merge `feature1` branch into the `main` branch
+	* Describe your pull request
+	* Click "Create pull request"
+
+
+* That's is, now someone with permission can merge this pull request.
+
+
 
