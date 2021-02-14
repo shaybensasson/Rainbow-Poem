@@ -150,7 +150,6 @@ git revert HEAD
 ```sh
 git log --oneline
 ```
-
 Run revert:
 ```sh
 git revert HASH
